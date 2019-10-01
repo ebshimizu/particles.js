@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/VincentGarreau/particles.js.git"
+    "url": "https://github.com/ebshimizu/particles.js.git"
   },
   "keywords": [
     "particles",
@@ -22,7 +22,7 @@
     "particles.min.js"
   ],
   "bugs": {
-    "url": "https://github.com/VincentGarreau/particles.js/issues"
+    "url": "https://github.com/ebshimizu/particles.js/issues"
   },
-  "homepage": "https://github.com/VincentGarreau/particles.js"
+  "homepage": "https://github.com/ebshimizu/particles.js"
 }
