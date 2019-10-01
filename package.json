@@ -21,6 +21,7 @@
     "particles.js",
     "particles.min.js"
   ],
+  "main": "particles.js",
   "bugs": {
     "url": "https://github.com/ebshimizu/particles.js/issues"
   },
