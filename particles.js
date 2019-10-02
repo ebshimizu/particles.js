@@ -172,6 +172,7 @@ var pJS = function(tag_id, params) {
       mode_bubble_size: pJS.interactivity.modes.bubble.size,
       mode_repulse_distance: pJS.interactivity.modes.repulse.distance
     };
+    pJS.fn.vendors.resetListeners();
     pJS.fn.particlesRefresh();
   };
 
@@ -1113,6 +1114,14 @@ var pJS = function(tag_id, params) {
   };
 
   /* ---------- pJS functions - vendors ------------ */
+
+  pJS.fn.vendors.resetListeners = function() {
+    pJS.interactivity.el.removeEventListener('mousemove');
+    pJS.interactivity.el.removeEventListener('mouseleave');
+    pJS.interactivity.el.removeEventListener('click');
+
+    pJS.fn.vendors.eventsListeners();
+  };
 
   pJS.fn.vendors.eventsListeners = function() {
     /* events target element */
